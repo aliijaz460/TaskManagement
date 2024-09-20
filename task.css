@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(45deg, #232526, #414345); /* Dark gradient background */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    border-radius: 10px;
+    color: #ecf0f1;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ecf0f1;
+  }
+  
+  /* Input section */
+  .task-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .task-input input {
+    padding: 10px;
+    margin: 0 5px;
+    flex: 1;
+  }
+  
+  #addTaskBtn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    flex: 0.5;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #ecf0f1;
+  }
+  
+  thead {
+    background-color: #2980b9;
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #7f8c8d;
+  }
+  
+  tbody tr:hover {
+    background-color: #34495e;
+  }
+  
+  .update-btn {
+    background-color: #ffc107;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    background-color: #e74c3c;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
